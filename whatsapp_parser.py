@@ -2,29 +2,21 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import random
 lite_texts = [
-    # "I am not against Jihad",
+    
     # "lite",
-    # "Jigga Jigga Jigga",
+   
     # "boring message"
     "something nuetral"
 
 
 ]
 happy_texts = [
-    # "you make me cum very hard",
-    # "i just wanna squeeze you all day long",
-    # "I masturbate to you every night",
-    # "Thank you bb girl",
-    # "Ill kiss you good night today"
+   
     "something good"
 
 ]
 angry_texts = [
-    # "fuck you retarded nigger",
-    # "your cock so small even small kids cant suck it",
-    # "kys bhaijaan",
-    # "I like muslims more than i like you",
-    # "great day for you to die"
+  
     "something bad"
 ]
 def main(words, name):
